@@ -1,0 +1,83 @@
+What is lex tool
+	Lex is a computer program that generates lexical analyzers.
+what is lexical analyzer
+	The lexical analyzer breaks these syntaxes into a series of tokens, by removing any whitespace or comments in the source code.
+
+What are instruction format of assembler and its size in byte
+	Assembly language instructions are frequently in the form of a word that represents the operator and then the operands separated by a comma.
+
+What is pattern
+	A set of strings in the input for which the same token is produced as output.
+Rule for LL(1) parser
+
+What is assembler
+	An assembler is a program that 	converts an assembly level language code (also called as mnemonic code) 
+	into machine language code and `provides necessary information for the loader to load the program.
+Databases in pass1,2
+	It scans the program only once and creates the equivalent binary program 
+	The assembler substitute all of the symbolic instructions with machine code in one pass
+	The main problem is about forward reference.
+What is loader
+	Loader is a program which accepts the object program decks and prepares these
+	programs for execution by the computer and initiates the execution
+ What is parser
+	A parser is a compiler or interpreter component that breaks data into smaller elements for easy translation into another language.
+What is MNT,MDT,ALA
+	MNT, created by Pass1/ Macro- Name Table (MNT), used to store names of macros
+	Macro-Definition Table (MDT), to store the body of macro defns
+	Argument List Array (ALA), used to substitute index markers for dummy arguments before storing a macro-defns .
+How many types of assemblers are there?
+	 Single pass/One pass
+	 Two pass
+	 Multi pass
+What are parse trees, DAG
+	A parse tree describes a syntactic structure
+	In a parse tree, all terminals are at leaves.
+	All inner nodes are non-terminals in a context free grammar
+	•Staring non-terminal represent root node.
+	
+	Tree is a special kind of graph that has no cycle so that is known as DAG (Directed Acyclic Graph).
+Rule for LL(1) parser
+	DEF
+	In computer science, an LL parser (Left-to-right, leftmost derivation) is a top-down parser for a restricted context-free language.
+ 	It parses the input from Left to right, performing Leftmost derivation of the sentence.
+	RULES
+	the grammar must not be left recursive.
+	the rule which should be chosen when developing a nonterminal must be determined by that nonterminal and 
+	the (at most) next token on the input.
+types of lexical analyzer
+
+
+diff ways to represent ICG.
+	High Level intermediate code: High level intermediate code can be represented as source code. ...
+	Low Level intermediate code. Low level intermediate code is close to the target machine, which makes it suitable for register and memory allocation etc.
+Diff ways to represent 3-Address code generator.
+	Quadruple – Has four fields: op, arg1, arg2 andresult
+			Temporaries are used
+	Triples – Temporaries are not used and instead references to instructions are made
+	Indirect Triples – In addition to triples we use a list of pointers to triples
+Wha is the purpose of first and follow
+	FIRST() is a set of the terminal symbols which occur as first symbols in strings derived from  where  is any string of grammar symbols.
+	• if  derives to , then  is also in FIRST() 
+	FOLLOW(A) is the set of the terminals which occur immediately after (follow) the non-terminal A in the strings derived from the starting symbol.
+what is left most derivative in LL(1)
+	The process of deriving a string by expanding the leftmost non-terminal at each step is called as leftmost derivation
+what is system software
+	System software are programs which help in running the computer system
+	• E.g. Operating System, Compiler etc
+What is compiler, assembler, interpreter.
+	It converts HLL program into m/c language
+	It converts ALP into m/c language.
+	It converts HLL program line by line in intermediate form, which it then executes.
+Diff between compiler and interpreter
+	It compiles whole source program
+	Speed of execution is fast.
+	Program need to compile only once & can be executed repeatedly
+	It requires large memory space to store
+	
+	It translates line by line.
+	Speed of execution is slow.
+	For every run of program, program need to be translated.
+	It requires less memory space to store.
+
+
